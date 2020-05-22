@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+
+</head>
+<body>
+<style>
+body{ 	
+	margin:1;
+	padding:0;
+	background:url(../IMAGES/h13.jpg);
+	<!--
+	background-size:cover;
+	background-repeat:no-repeat; -->
+	background-size:cover;
+	background-position:center;
+	font-family:san-serif;
+	height: 100%;
+	width: 100%;
+}
+
+.A {
+	width:350px;
+	height: 1080px;
+	background:#000;
+	color:#fff;
+	top:2%;
+	left:15%;
+	position:absolute;
+	transform:translate(-50% -60%);
+	box-sizing : border-box;
+	padding:60px 35px;
+	border-radius:5%;
+	background-color: rgba(0, 0, 0, 0.6);
+	
+}
+
+.A input{
+	width:80%;
+	margin-left:0px;
+	margin-bottom:0px;
+	
+}
+.A input[type="button"]{
+	border:none;
+	outline:none;
+	height:30px;
+	width:60%;
+	background:#fb2516;
+	color:#fff;
+	font-size:18px;
+	border-radius:20px;
+	margin-left:80px;
+}
+
+.A input[type="button"]:hover{
+	cursor:pointer;
+	background:#fb3516;
+	color:blue;
+}
+.A input[type="text"],[type="Number"],
+   [type="password"] ,[type="email"]
+  
+   {
+	border:none;
+	border-bottom:2px solid #fff;
+	background:transparent;
+	outline:none;
+	height:10px;
+	color:#fff;
+	font-size:15px;
+	
+}
+h1{
+	color:red;
+}
+
+
+</style>
+
+<div class="A">
+
+<h1>Register Here</h1>
+<form>
+
+<p>First Name</p>
+<input type="text"  size=25 name="f1" placeholder="Enter First name">
+
+<p>Last Name</p>
+<input type="text" size=25 name="l1" placeholder="Enter Last name">
+
+<p>Gender:</p>
+<input type="radio" name="g1" checked="">Male
+<input type="radio" name="g2" >Female
+
+<p>Date Of Birth</p>
+<input type="date" size=25 name="d1" placeholder="Enter DOB">
+
+<p> Address</p>
+<input type="text" size=25 name="a1" placeholder="Enter Address">
+
+
+
+<p>State</p>
+<input list="M"  size=25 placeholder="State">
+<datalist id="M">
+
+ 
+<option value=”Andaman and Nicobar Islands”>
+<option value=”Arunachal Pradesh”>
+<option value=”Assam”>
+<option value=”Bihar”>
+<option value=”Chandigarh”>
+<option value=”Chhattisgarh”>
+<option value=”Dadar and Nagar Haveli”>
+<option value=”Daman and Diu”>
+<option value=”Delhi”>
+<option value=”Lakshadweep”>
+<option value=”Puducherry”>
+<option value=”Goa”>
+<option value=”Gujarat”>
+<option value=”Haryana”>
+<option value=”Himachal Pradesh”>
+<option value=”Jammu and Kashmir”>
+<option value=”Jharkhand”>
+<option value=”Karnataka”>
+<option value=”Kerala”>
+<option value=”Madhya Pradesh”>
+<option value=”Maharashtra”>
+<option value=”Manipur”>
+<option value=”Meghalaya”>
+<option value=”Mizoram”>
+<option value=”Nagaland”>
+<option value=”Odisha”>
+<option value=”Punjab”>
+<option value=”Rajasthan”>
+<option value=”Sikkim”>
+<option value=”Tamil Nadu”>
+<option value=”Telangana”>
+<option value=”Tripura”>
+<option value=”Uttar Pradesh”>
+<option value=”Uttarakhand”>
+<option value=”West Bengal”>
+
+ </datalist>
+
+<p>Country</p>
+<input list="My" size=25 placeholder="country">
+<datalist id="My">
+
+ <option value="India">
+ <option value="USA">
+ <option value="UK">
+  <option value="Canada">
+ <option value="Japan">
+ <option value="Germany">
+ <option value="France">
+
+ </datalist>
+
+
+
+<p>Email id</p>
+<input type="email" size=25 name="e1" placeholder="Enter Email id">
+
+<p>Mobile No</p>
+<input type="Number"  size=25  placeholder="Enter Mobile No">
+
+
+<p>Username</p>
+<input type="text" size=25 name="u1" placeholder="Enter username">
+
+
+<p>Password</p>
+<input type="password" size=25 name="p1" placeholder="Enter Password">
+
+<p> Confirm Password</p>
+<input type="password" size=25 name="p1" placeholder="Enter Password">
+<br><br> 
+<input type="Submit" size=25 name="s1" value="Submit!!!"><br>
+<input type="reset" size=25 name="r1" value="Reset">
+<br><br><br>
+
+</form>
+
+</div>
+</body>
+</html>
